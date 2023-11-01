@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (lab01_pkg) JobQueued: {'identifier': 'lab01_pkg', 'dependencies': OrderedDict()}
+[0.000565] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000620] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000671] (lab01_pkg) JobStarted: {'identifier': 'lab01_pkg'}
+[0.055942] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099299] (-) TimerEvent: {}
+[0.110339] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.199423] (-) TimerEvent: {}
+[0.299735] (-) TimerEvent: {}
+[0.400119] (-) TimerEvent: {}
+[0.500536] (-) TimerEvent: {}
+[0.600838] (-) TimerEvent: {}
+[0.701180] (-) TimerEvent: {}
+[0.728235] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.729605] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.729757] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim', 'env': OrderedDict([('HOSTNAME', 'kristoffer-ubuntu20'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/SESARS_Labs/src'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d2a86aa5-5d27-4bb9-b539-85bdc5e24d9d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-33e06da8-dca2-4548-846e-b61429ec229a.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-421aa2ecaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock'), ('AMENT_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim'), ('PYTHONPATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble')]), 'shell': False}
+[0.801343] (-) TimerEvent: {}
+[0.813807] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.819320] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.833334] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.849116] (turtlesim) StdoutLine: {'line': b'[ 23%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.849410] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.851136] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.853293] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.854446] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.857027] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.884679] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.884946] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target draw_square\n'}
+[0.886205] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target mimic\n'}
+[0.886435] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[0.895241] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim_node\n'}
+[0.901466] (-) TimerEvent: {}
+[0.909001] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[0.939880] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[0.966522] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.966748] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.967669] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[1.001603] (-) TimerEvent: {}
+[1.041227] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.041960] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.042262] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.042501] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.044871] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.045474] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.063217] (lab01_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/lab01_pkg', 'build', '--build-base', '/workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/build', 'install', '--record', '/workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/SESARS_Labs/src/ros2_ws/src/lab01_pkg', 'env': {'HOSTNAME': 'kristoffer-ubuntu20', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/SESARS_Labs/src', 'TERM_PROGRAM_VERSION': '1.83.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d2a86aa5-5d27-4bb9-b539-85bdc5e24d9d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install:/opt/ros/humble', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-33e06da8-dca2-4548-846e-b61429ec229a.sock', 'PULSE_SERVER': '', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-421aa2ecaf.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock', 'AMENT_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble', 'DEBIAN_FRONTEND': '', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X4', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg', 'PYTHONPATH': '/workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/prefix_override:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim'}, 'shell': False}
+[1.066431] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/workspaces/SESARS_Labs/src/ros2_ws/build/py_pubsub/build', 'install', '--record', '/workspaces/SESARS_Labs/src/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/SESARS_Labs/src/ros2_ws/src/py_pubsub', 'env': {'HOSTNAME': 'kristoffer-ubuntu20', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/SESARS_Labs/src', 'TERM_PROGRAM_VERSION': '1.83.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d2a86aa5-5d27-4bb9-b539-85bdc5e24d9d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install:/opt/ros/humble', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-33e06da8-dca2-4548-846e-b61429ec229a.sock', 'PULSE_SERVER': '', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-421aa2ecaf.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock', 'AMENT_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble', 'DEBIAN_FRONTEND': '', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X4', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/SESARS_Labs/src/ros2_ws/build/py_pubsub', 'PYTHONPATH': '/workspaces/SESARS_Labs/src/ros2_ws/build/py_pubsub/prefix_override:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim'}, 'shell': False}
+[1.080648] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.096700] (turtlesim) CommandEnded: {'returncode': 0}
+[1.101708] (-) TimerEvent: {}
+[1.202031] (-) TimerEvent: {}
+[1.243703] (lab01_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.244456] (lab01_pkg) StdoutLine: {'line': b'writing ../../build/lab01_pkg/lab01_pkg.egg-info/PKG-INFO\n'}
+[1.244688] (lab01_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab01_pkg/lab01_pkg.egg-info/dependency_links.txt\n'}
+[1.244846] (lab01_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab01_pkg/lab01_pkg.egg-info/entry_points.txt\n'}
+[1.244976] (lab01_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab01_pkg/lab01_pkg.egg-info/requires.txt\n'}
+[1.245099] (lab01_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab01_pkg/lab01_pkg.egg-info/top_level.txt\n'}
+[1.247049] (lab01_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab01_pkg/lab01_pkg.egg-info/SOURCES.txt'\n"}
+[1.247806] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.248112] (lab01_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab01_pkg/lab01_pkg.egg-info/SOURCES.txt'\n"}
+[1.248301] (lab01_pkg) StdoutLine: {'line': b'running build\n'}
+[1.248403] (lab01_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.248520] (lab01_pkg) StdoutLine: {'line': b'copying lab01_pkg/localization.py -> /workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg\n'}
+[1.248632] (lab01_pkg) StdoutLine: {'line': b'copying lab01_pkg/controller.py -> /workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg\n'}
+[1.248796] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.248982] (lab01_pkg) StdoutLine: {'line': b'running install\n'}
+[1.249739] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.249883] (lab01_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.250069] (lab01_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.250154] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.250246] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.250333] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.250416] (lab01_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.251671] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.252709] (lab01_pkg) StdoutLine: {'line': b'copying /workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg/localization.py -> /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg\n'}
+[1.253680] (lab01_pkg) StdoutLine: {'line': b'copying /workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/build/lib/lab01_pkg/controller.py -> /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg\n'}
+[1.254051] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.254568] (lab01_pkg) StdoutLine: {'line': b'byte-compiling /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg/localization.py to localization.cpython-310.pyc\n'}
+[1.254767] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.254929] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.255139] (lab01_pkg) StdoutLine: {'line': b'byte-compiling /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg/controller.py to controller.cpython-310.pyc\n'}
+[1.255311] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.255472] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.255899] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.256066] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.256231] (lab01_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.256396] (lab01_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.257486] (lab01_pkg) StdoutLine: {'line': b"removing '/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.257851] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.258028] (lab01_pkg) StdoutLine: {'line': b'Copying ../../build/lab01_pkg/lab01_pkg.egg-info to /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages/lab01_pkg-0.0.0-py3.10.egg-info\n'}
+[1.258507] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.259134] (lab01_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.260657] (py_pubsub) StdoutLine: {'line': b"removing '/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.261015] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[1.262054] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.282478] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.282925] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[1.283248] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/workspaces/SESARS_Labs/src/ros2_ws/build/py_pubsub/install.log'\n"}
+[1.284318] (lab01_pkg) StdoutLine: {'line': b'Installing controller script to /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/lab01_pkg\n'}
+[1.284620] (lab01_pkg) StdoutLine: {'line': b'Installing localization script to /workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/lab01_pkg\n'}
+[1.284969] (lab01_pkg) StdoutLine: {'line': b"writing list of installed files to '/workspaces/SESARS_Labs/src/ros2_ws/build/lab01_pkg/install.log'\n"}
+[1.302155] (-) TimerEvent: {}
+[1.331428] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.368904] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.370838] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[1.392210] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim'], 'cwd': '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim', 'env': OrderedDict([('HOSTNAME', 'kristoffer-ubuntu20'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/SESARS_Labs/src'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d2a86aa5-5d27-4bb9-b539-85bdc5e24d9d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install:/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-33e06da8-dca2-4548-846e-b61429ec229a.sock'), ('PULSE_SERVER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-421aa2ecaf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-33e06da8-dca2-4548-846e-b61429ec229a.sock'), ('AMENT_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/SESARS_Labs/src/ros2_ws/build/turtlesim'), ('PYTHONPATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim:/workspaces/SESARS_Labs/src/ros2_ws/install/py_pubsub:/workspaces/SESARS_Labs/src/ros2_ws/install/lab01_pkg:/opt/ros/humble')]), 'shell': False}
+[1.393833] (lab01_pkg) CommandEnded: {'returncode': 0}
+[1.402251] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.402625] (-) TimerEvent: {}
+[1.403057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[1.403246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.403312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.403374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.403437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.403513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[1.403592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[1.403678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[1.403763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[1.403831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[1.403907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[1.404115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[1.404220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[1.404285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[1.404346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[1.404407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.404468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[1.404566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[1.404628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[1.404690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.404752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[1.404813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[1.404874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[1.404935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[1.405276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[1.405360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[1.405443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[1.405541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[1.405605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[1.405674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[1.405734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[1.405796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[1.405856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[1.405917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[1.405978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[1.406040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[1.406103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[1.406166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[1.406238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[1.406306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[1.406532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[1.406597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[1.406659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.406726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.406788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[1.407110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[1.407174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[1.407235] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[1.407297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[1.407357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[1.407419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[1.407480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[1.407541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.407603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.407665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.407727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.408918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[1.408984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.409046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.409110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.409172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.409738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.409799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.409862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[1.409921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.409982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.410096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.410161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[1.410311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[1.410383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[1.410532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[1.410605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[1.410676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[1.410744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[1.410813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[1.410881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.411016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[1.411078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.411194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[1.411264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[1.411332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[1.411403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[1.411871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[1.412467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[1.412937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[1.413229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[1.413593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[1.413790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[1.414012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[1.414187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[1.414391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[1.414573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[1.414842] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[1.415488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[1.415764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[1.416662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[1.417072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[1.417929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.418380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[1.418965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.419264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[1.419620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[1.419947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[1.420020] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.420086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.420242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.420309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.420390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[1.420459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.420598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.420702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.420793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.420972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[1.421571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.421647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.421721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.422253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.422317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.422377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.422463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.422546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[1.422604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.422675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.422750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.422964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.423026] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.423097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[1.423181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[1.423433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[1.423560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[1.423621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.423821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.423882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.423941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[1.423997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[1.424059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[1.424119] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[1.424234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[1.424301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[1.424522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[1.424586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[1.424645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.424733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[1.424978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.425040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.425140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[1.425206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.425547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[1.425627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[1.425732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.425803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.425978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.426103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.426166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.426226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[1.426404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[1.426546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.426611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.426720] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.426784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[1.426993] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.427132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[1.427260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[1.427455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.427593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.427659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.427764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[1.427826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[1.427887] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.428057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.428120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[1.428213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.428421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[1.428485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[1.428549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[1.428641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[1.428914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[1.429000] (turtlesim) StdoutLine: {'line': b'-- Installing: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[1.429062] (turtlesim) StdoutLine: {'line': b'-- Installing: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[1.429122] (turtlesim) StdoutLine: {'line': b'-- Installing: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[1.429182] (turtlesim) StdoutLine: {'line': b'-- Installing: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[1.429278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[1.429340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[1.429543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.429610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[1.429830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[1.429900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[1.429964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[1.430054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[1.430414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[1.430478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.430604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.430799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[1.430863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[1.430965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.431029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[1.431200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.431266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.431359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[1.431421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.431680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[1.431744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.431862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.431927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[1.432123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[1.432190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[1.432251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.432352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.432417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[1.432657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.432722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.432786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[1.442488] (turtlesim) StdoutLine: {'line': b"Listing '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[1.443031] (turtlesim) StdoutLine: {'line': b"Listing '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[1.443231] (turtlesim) StdoutLine: {'line': b"Listing '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[1.443295] (turtlesim) StdoutLine: {'line': b"Listing '/workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[1.446943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.447637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.448316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.448832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[1.449879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.450490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.450859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.451228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.451706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.452155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.452541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.452919] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.453196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.453726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.454310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.454802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.455141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.455491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.455697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.456077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.456387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.456730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.457154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.457707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.458276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.458934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.459468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.460100] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.460603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.460999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.461538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.461848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.462535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.462926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.463153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[1.463424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[1.463646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.463983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.464501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[1.464855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.465239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.465813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.467044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[1.467459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.467656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[1.468175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.468484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.468814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.469031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.469467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.469813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.470108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.470434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.471413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.471851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.472380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.472802] (turtlesim) StdoutLine: {'line': b'-- Installing: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.473362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.474042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.474475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.474980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.475347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.475753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.476057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.476436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.476832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.477117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.477414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.477852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.478124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.478460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.478912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.479271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.479607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[1.479909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.480212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.480436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.480676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.481155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.482059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.482275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.482356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.482436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.482516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.482597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /workspaces/SESARS_Labs/src/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.482679] (lab01_pkg) JobEnded: {'identifier': 'lab01_pkg', 'rc': 0}
+[1.483265] (turtlesim) CommandEnded: {'returncode': 0}
+[1.502826] (-) TimerEvent: {}
+[1.603550] (-) TimerEvent: {}
+[1.704165] (-) TimerEvent: {}
+[1.804772] (-) TimerEvent: {}
+[1.905213] (-) TimerEvent: {}
+[1.970277] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.971020] (-) EventReactorShutdown: {}

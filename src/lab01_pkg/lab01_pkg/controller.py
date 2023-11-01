@@ -16,7 +16,7 @@ class Controller(Node):
 
     def __init__(self):
         super().__init__('controller')
-        self.vel_publisher_ = self.create_publisher(String, 'cmd_topic', 10)
+        self.vel_publisher_ = self.create_publisher(Twist, 'cmd_topic', 10)
         timer_period = 1  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
@@ -25,25 +25,26 @@ class Controller(Node):
         self.count_N = 0
 
     def timer_callback(self):
-        msg = Twist()
-        if self.count_N < self.N:
-            if self.step == 1:
-                msg.linear.x = 1
-            elif self.step == 2:
-                msg.linear.y = 1
-            elif self.step == 3:
-                msg.linear.x = -1
-            elif self.step == 4:
-                msg.linear.x = -1
-            self.count_N += 1
-        else:
+        
+        if self.count_N >= self.N:
             self.count_N = 0
             if self.step < 4:
                 self.step += 1
             else:
                 self.step = 1
                 self.N += 1
-        
+                
+        msg = Twist()
+        if self.step == 1:
+            msg.linear.x = float(1)
+        elif self.step == 2:
+            msg.linear.y = float(1)
+        elif self.step == 3:
+            msg.linear.x = float(-1)
+        elif self.step == 4:
+            msg.linear.y = float(-1)
+        self.count_N += 1
+
         self.vel_publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.linear)
 

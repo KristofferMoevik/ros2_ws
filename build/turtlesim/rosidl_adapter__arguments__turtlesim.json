@@ -1,13 +1,13 @@
 {
   "package_name": "turtlesim",
   "non_idl_tuples": [
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
-    "/home/kristoffer/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/workspaces/SESARS_Labs/src/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
   ]
 }
